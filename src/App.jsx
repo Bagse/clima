@@ -68,7 +68,7 @@ function App() {
         <div className="flex gap-4 place-content-center">
           <input
             type="text"
-            className="rounded-full px-3 py-2 outline-none"
+            className="rounded-full px-3 py-2 outline-none w-52 sm:w-full"
             placeholder="Ingrese su ciudad..."
             // value={cityName}
             onChange={(e) => setCityName(e.target.value)}
