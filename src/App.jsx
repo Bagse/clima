@@ -64,7 +64,7 @@ function App() {
 
   return (
     <div className="flex justify-center items-start py-10 min-h-screen bg-[#141414] font-popins">
-      <div className="flex flex-col justify-center place-content-center text-center w-screen sm:w-96 p-8 rounded-md bg-sky-900 shadow shadow-white">
+      <div className="flex flex-col justify-center place-content-center text-center w-screen sm:w-96 p-4 sm:p-8 rounded-md bg-sky-900 shadow shadow-white">
         <div className="flex gap-4 place-content-center">
           <input
             type="text"
